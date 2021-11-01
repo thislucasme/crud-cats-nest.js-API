@@ -10,7 +10,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Gatos exemplo')
-    .setDescription('Api gatos descrição')
+    .setDescription('The cats API description')
     .setVersion('1.0')
     .addTag('cats')
     .build();

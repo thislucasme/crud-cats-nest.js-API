@@ -9,8 +9,8 @@ async function bootstrap() {
   app.enableCors();
 
   const config = new DocumentBuilder()
-    .setTitle('Gatos exemplo')
-    .setDescription('Api gatos descrição')
+    .setTitle('Cats example')
+    .setDescription('The cats API description')
     .setVersion('1.0')
     .addTag('cats')
     .build();
